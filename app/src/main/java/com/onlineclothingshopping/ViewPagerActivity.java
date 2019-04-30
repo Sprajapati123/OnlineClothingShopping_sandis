@@ -8,12 +8,13 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.view.Window;
 
 import Adapter.ViewPagerAdapter;
 import Fragments.LoginFragment;
 import Fragments.RegisterFragment;
 
-public class ViewPagerActivity extends AppCompatActivity {
+public class ViewPagerActivity extends AppCompatActivity  {
 
     private ViewPager viewPager;
     private TabLayout tabLayout;
