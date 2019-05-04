@@ -24,6 +24,6 @@
         android:text="Add items"
         android:textSize="20sp"
         android:layout_margin="20dp"
-        android:id="@+id/additems"
+        android:id="@+id/btnadditems"
         />
 </LinearLayout>
