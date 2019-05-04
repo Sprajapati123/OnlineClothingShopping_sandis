@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/noimage"
+        android:id="@+id/imgview2"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/lblname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgview2"
+        android:layout_marginTop="27dp"
+        android:layout_marginLeft="50dp"
+        android:text="Item name" />
+
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgview2"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="27dp"
+        android:hint="Item " />
+
+    <TextView
+        android:id="@+id/lblprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblname"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="27dp"
+        android:text="Price" />
+
+    <TextView
+        android:id="@+id/price2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name2"
+        android:layout_marginStart="-72dp"
+        android:layout_marginTop="26dp"
+        android:layout_toEndOf="@+id/imgview2"
+        android:hint="Item Price" />
+
+
+    <TextView
+        android:id="@+id/lbldesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblprice"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="27dp"
+        android:text="Description" />
+
+    <TextView
+        android:id="@+id/description2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/price2"
+        android:layout_marginStart="-71dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@+id/imgview2"
+        android:hint="Item Description" />
+
+
+
+</RelativeLayout>
